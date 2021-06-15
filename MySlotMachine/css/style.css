@@ -1,0 +1,59 @@
+body {
+  background: #bdc3c7;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  width: 300px;
+  background: #ecf0f1;
+  padding: 20px;
+  border: 4px solid #fff;
+  /* 図形の丸みを設定する */
+  border-radius: 12px;
+  margin: 16px auto;
+  display: flex;
+  /* 空間を開ける */
+  justify-content: space-between;
+}
+
+.panel img {
+  width: 90px;
+  height: 110px;
+  margin-bottom: 4px;
+}
+
+.stop {
+  cursor: pointer;
+  width: 90px;
+  background: #ef454a;
+  /* 立体感を出す */
+  box-shadow: 0 4px 0 #d1483e;
+  /* 丸み */
+  border-radius: 16px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  /* ボタンが連打されてもクリックできるように */
+  user-select: none;
+}
+
+#spin {
+  cursor: pointer;
+  width: 280px;
+  background: #3498db;
+  /* 立体感を出す */
+  box-shadow: 0 4px 0 #2880b9;
+  /* 丸み大きいほど丸くなる */
+  border-radius: 18px;
+  /* テキストボックス・行ボックスの高さを示す */
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+  /* ボタンが連打されてもクリックできるように */
+  user-select: none;
+  /* 中央へ */
+  margin: 0 auto;
+}
