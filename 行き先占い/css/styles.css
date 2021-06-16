@@ -1,0 +1,31 @@
+body {
+  background: #efefef;
+}
+
+#btn {
+  width: 200px;
+  height: 200px;
+  background: #ef454a;
+  border-radius: 50%;
+  margin: 30px auto;
+  text-align: center;
+  line-height: 200px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 42px;
+  cursor: pointer;
+  /* X 方向に 0 、 Y 方向に 10px 、ぼかしなし、色は少し濃いめの赤 */
+  box-shadow: 0 10px 0 #d1483e;
+  /* ボタン内のコメントを選択出来なくする */
+  user-select: none;
+}
+
+#btn:hover {
+  /* ボタンの透過率 */
+  opacity: 0.9;
+}
+
+#btn:active {
+  box-shadow: 0 5px 0 #d1483e;
+  margin-top: 35px;
+}
