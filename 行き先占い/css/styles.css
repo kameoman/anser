@@ -29,3 +29,12 @@ body {
   box-shadow: 0 5px 0 #d1483e;
   margin-top: 35px;
 }
+
+
+input, button {
+  display: block;
+}
+
+.btn-remove {
+  display: none;
+}
